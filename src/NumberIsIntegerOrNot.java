@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class NumberIsIntegerOrNot {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Any value");
+        //boolean a=sc.hasNextBoolean();
+        boolean a=sc.hasNextInt();
+        System.out.println(a);
+
+
+    }
+
+}
